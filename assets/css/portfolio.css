@@ -1,0 +1,286 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Open Sans", sans-serif;
+}
+.color-yellow {
+  color: #fd6e0a;
+}
+
+/* Header
+================ */
+header {
+  background-image: url("../images/header_bg.png"),
+    url("../images/developer.png");
+  background-position: bottom right, left top;
+  background-repeat: no-repeat;
+  background-color: #fff8f3;
+}
+
+/* Navigation styles
+=====================*/
+nav {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.5rem 10rem;
+}
+.nav-header {
+  font-weight: 800;
+  font-size: 45px;
+  line-height: 61px;
+  color: #181818;
+}
+
+nav ul {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  list-style: none;
+  margin-left: 50px;
+}
+
+#decorated-link {
+  width: 100px;
+  padding: 10px;
+  background-color: #fd6e0a;
+  text-align: center;
+  border-radius: 0.5rem;
+  color: #fff;
+  font-weight: 500;
+}
+
+/* Header banner styles
+======================= */
+.header-banner {
+  display: flex;
+  align-items: center;
+  margin: 0rem 10rem;
+}
+
+.banner-top-title {
+  font-weight: 700;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+.banner-title {
+  font-weight: 700;
+  font-size: 3rem;
+}
+.banner-slogan {
+  margin-top: 2rem;
+  width: 80%;
+}
+
+.btn-primary {
+  color: #fff;
+  font-weight: 700;
+  padding: 1rem 1.4rem;
+  height: 3.5rem;
+  text-align: center;
+  background-color: #fd6e0a;
+  border: none;
+  border-radius: 0.5rem;
+  margin-top: 1.5rem;
+  width: 150px;
+}
+
+.btn-secondary {
+  color: #fd6e0a;
+  font-weight: 700;
+  padding: 1rem 1.4rem;
+  height: 3.5rem;
+  text-align: center;
+  background-color: #fff;
+  border: 0.1rem solid #fd6e0a;
+  border-radius: 0.5rem;
+  margin-top: 1.5rem;
+  width: 150px;
+}
+
+.slogan {
+  width: 100%;
+}
+.hero-image {
+  width: 100%;
+}
+
+.hero-banner-image {
+  height: auto;
+  width: 100%;
+  background-position: center;
+}
+
+/* About me section
+==================== */
+.about-me {
+  background-color: #fff8f3;
+  margin: 131px 156px;
+  padding: 10rem;
+  border-radius: 0.4rem;
+}
+
+.about-me-header {
+  font-size: 2.3rem;
+  font-size: 700;
+  line-height: 3rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+.about-me-details {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 2rem;
+}
+
+.data-header {
+  font-size: 16px;
+  color: #999;
+  text-align: center;
+}
+
+.detail {
+  font-weight: 600;
+  font-size: 12px;
+  color: #444;
+  margin-top: 0.5rem;
+}
+
+/* What I do section
+==================== */
+.profession {
+  margin: 131px 156px;
+}
+.profession-title h3 {
+  margin-bottom: 2rem;
+}
+.profession-header {
+  font-size: 2.3rem;
+}
+.profession-title {
+  text-align: center;
+}
+.details {
+  display: flex;
+  justify-content: space-between;
+  gap: 1rem;
+  margin-top: 2rem;
+}
+.thumbnail {
+  margin-bottom: 1rem;
+}
+.profession-details {
+  background-color: #fff;
+  padding: 0.5rem;
+  box-shadow: 1px 2px 3px 1px #ddd;
+  border-radius: 0.3rem;
+}
+.header-title {
+  margin: 1rem 0rem;
+}
+
+/* Summary styles
+======================== */
+.summary {
+  margin: 131px 156px;
+}
+.header-title {
+  font-size: 2.3rem;
+  margin: 2.5rem 0rem;
+}
+.summary-header {
+  text-align: center;
+}
+.summary-details {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+.education-details {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 2rem;
+}
+.education-details h4 {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+.education-details h6 {
+  margin: 0.5rem 0rem;
+  color: #666;
+}
+.education-details p {
+  margin-bottom: 1rem;
+}
+.experience-details {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 2rem;
+}
+.experience-details h4 {
+  margin-top: 1rem;
+  font-size: 0.9rem;
+}
+.experience-details h6 {
+  margin: 0.5rem 0rem;
+  color: #666;
+}
+.experience-details p {
+  margin-bottom: 1rem;
+}
+.download-button {
+  text-align: center;
+}
+.btn-download {
+  color: #fff;
+  font-weight: 700;
+  padding: 1rem 1.4rem;
+  height: 3.5rem;
+  text-align: center;
+  background-color: #fd6e0a;
+  border: none;
+  border-radius: 0.5rem;
+  margin-top: 1.5rem;
+  width: 150px;
+  text-align: center;
+}
+
+/* Contact me style
+=================== */
+.contact-me {
+  background-color: #fff8f3;
+}
+.contact-details {
+  display: flex;
+  gap: 3rem;
+  margin: 131px 156px 0px 156px;
+  justify-content: space-between;
+  padding-bottom: 2rem;
+}
+.social-buttons {
+  margin-top: 1rem;
+}
+.social-buttons a {
+  margin-right: 1rem;
+}
+.contact-header {
+  margin: 2.5rem 0rem;
+}
+input {
+  display: block;
+  width: 100%;
+  margin-bottom: 1rem;
+  border: 0;
+  padding: 0.5rem;
+  border-radius: 0.3rem;
+}
+textarea {
+  border: 0;
+  border-radius: 0.3rem;
+  padding: 0.5rem;
+}
