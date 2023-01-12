@@ -80,7 +80,7 @@ nav ul li {
 .btn-primary {
   color: #fff;
   font-weight: 700;
-  padding: 1rem 1.4rem;
+  padding: 1rem 1.2rem;
   height: 3.5rem;
   text-align: center;
   background-color: #fd6e0a;
@@ -93,7 +93,7 @@ nav ul li {
 .btn-secondary {
   color: #fd6e0a;
   font-weight: 700;
-  padding: 1rem 1.4rem;
+  padding: 1rem 1.2rem;
   height: 3.5rem;
   text-align: center;
   background-color: #fff;
@@ -239,7 +239,7 @@ nav ul li {
 .btn-download {
   color: #fff;
   font-weight: 700;
-  padding: 1rem 1.4rem;
+  padding: 1rem 1.2rem;
   height: 3.5rem;
   text-align: center;
   background-color: #fd6e0a;
@@ -283,4 +283,95 @@ textarea {
   border: 0;
   border-radius: 0.3rem;
   padding: 0.5rem;
+}
+
+footer {
+  background-color: #000;
+  min-height: 150px;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
+
+/* Responsive styles
+==================== */
+
+/* For small device  */
+
+/* Header */
+@media screen and (max-width: 576px) {
+  header {
+    background-image: url("");
+    width: 100%;
+  }
+  nav {
+    flex-direction: column;
+    padding: 1rem;
+    align-items: flex-start;
+  }
+  nav ul {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+  nav ul li {
+    margin-left: 0;
+    margin: 0.5rem 0rem;
+  }
+  .header-banner {
+    flex-direction: column;
+    flex-flow: column-reverse;
+    margin: 0;
+    padding: 0.5rem;
+  }
+}
+
+/* About Me */
+@media screen and (max-width: 576px) {
+  .about-me {
+    margin: 0;
+    padding: 0.5rem;
+    flex-direction: column;
+  }
+  .about-me-header {
+    font-size: 28px;
+  }
+  .about-me-details {
+    flex-direction: column;
+  }
+  .data-header {
+    margin-bottom: 0.5rem;
+    border-bottom: 0.1rem solid #ddd;
+    width: 100%;
+  }
+}
+
+/* summary */
+@media screen and (max-width: 576px) {
+  .summary {
+    margin: 0;
+    padding: 0.5rem;
+  }
+  .header-title {
+    font-size: 28px;
+  }
+  .summary-details {
+    flex-direction: column;
+  }
+}
+
+/* Contact Me  */
+@media screen and (max-width: 576px) {
+  .contact-me {
+    margin: 0px;
+  }
+  .contact-details {
+    flex-direction: column;
+    margin: 0;
+    padding: 0.5rem;
+  }
 }
